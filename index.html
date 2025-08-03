@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional business services company providing innovative solutions for your business needs">
+    <meta name="keywords" content="business, services, professional, consulting, solutions">
+    <meta name="author" content="Business Solutions Inc">
+    <title>Business Solutions Inc - Professional Services</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Preload critical fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Company logo/brand -->
+                <div class="nav-logo">
+                    <h2>Business Solutions</h2>
+                </div>
+                
+                <!-- Desktop navigation menu -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile hamburger menu button -->
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content wrapper -->
+    <main>
+        <!-- Hero section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Transform Your Business with Professional Solutions</h1>
+                    <p class="hero-description">
+                        We provide innovative business solutions that drive growth, efficiency, and success. 
+                        Partner with us to take your business to the next level.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">Our Services</a>
+                        <a href="#contact" class="btn btn-secondary">Get Started</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Using SVG for scalable graphics -->
+                    <svg viewBox="0 0 400 300" class="hero-svg">
+                        <rect x="50" y="50" width="300" height="200" rx="20" fill="#3498db" opacity="0.1"/>
+                        <rect x="70" y="70" width="260" height="30" rx="5" fill="#3498db"/>
+                        <rect x="70" y="120" width="180" height="20" rx="3" fill="#95a5a6"/>
+                        <rect x="70" y="150" width="220" height="20" rx="3" fill="#95a5a6"/>
+                        <rect x="70" y="180" width="160" height="20" rx="3" fill="#95a5a6"/>
+                        <circle cx="320" cy="180" r="30" fill="#3498db" opacity="0.8"/>
+                        <circle cx="320" cy="180" r="15" fill="#ffffff"/>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="section-subtitle">Building excellence through innovation and dedication</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>
+                            Founded with a vision to transform businesses through innovative solutions, 
+                            we have been serving clients across various industries for over a decade. 
+                            Our team of experienced professionals combines technical expertise with 
+                            strategic thinking to deliver exceptional results.
+                        </p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>
+                            To empower businesses with cutting-edge solutions that drive growth, 
+                            improve efficiency, and create lasting value. We believe in building 
+                            long-term partnerships based on trust, quality, and mutual success.
+                        </p>
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">500+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <!-- Team illustration using SVG -->
+                        <svg viewBox="0 0 300 200" class="about-svg">
+                            <rect x="0" y="0" width="300" height="200" rx="15" fill="#f8f9fa"/>
+                            <!-- Team members -->
+                            <circle cx="80" cy="80" r="25" fill="#3498db"/>
+                            <rect x="70" y="110" width="20" height="40" rx="5" fill="#34495e"/>
+                            
+                            <circle cx="150" cy="70" r="25" fill="#e74c3c"/>
+                            <rect x="140" y="100" width="20" height="50" rx="5" fill="#34495e"/>
+                            
+                            <circle cx="220" cy="85" r="25" fill="#2ecc71"/>
+                            <rect x="210" y="115" width="20" height="35" rx="5" fill="#34495e"/>
+                            
+                            <!-- Conference table -->
+                            <ellipse cx="150" cy="160" rx="100" ry="20" fill="#95a5a6" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive solutions tailored to your business needs</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 60 60" class="icon-svg">
+                                <circle cx="30" cy="30" r="25" fill="#3498db" opacity="0.1"/>
+                                <path d="M20 25 L25 30 L40 15" stroke="#3498db" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="30" cy="30" r="25" stroke="#3498db" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Business Consulting</h3>
+                        <p class="service-description">
+                            Strategic guidance and expert advice to help your business grow, 
+                            optimize operations, and achieve sustainable success in competitive markets.
+                        </p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 60 60" class="icon-svg">
+                                <rect x="10" y="15" width="40" height="30" rx="5" fill="#3498db" opacity="0.1"/>
+                                <rect x="15" y="20" width="30" height="3" fill="#3498db"/>
+                                <rect x="15" y="27" width="25" height="3" fill="#3498db"/>
+                                <rect x="15" y="34" width="20" height="3" fill="#3498db"/>
+                                <circle cx="45" cy="35" r="8" stroke="#3498db" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Digital Solutions</h3>
+                        <p class="service-description">
+                            Modern digital solutions including web development, mobile applications, 
+                            and digital transformation services to keep your business ahead of the curve.
+                        </p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 60 60" class="icon-svg">
+                                <path d="M30 10 L50 20 L50 40 L30 50 L10 40 L10 20 Z" stroke="#3498db" stroke-width="2" fill="#3498db" opacity="0.1"/>
+                                <circle cx="30" cy="30" r="8" fill="#3498db"/>
+                                <path d="M22 22 L38 38 M38 22 L22 38" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Process Optimization</h3>
+                        <p class="service-description">
+                            Streamline your business processes, reduce costs, and improve efficiency 
+                            through our proven optimization methodologies and automation solutions.
+                        </p>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 60 60" class="icon-svg">
+                                <rect x="15" y="20" width="30" height="25" rx="3" stroke="#3498db" stroke-width="2" fill="#3498db" opacity="0.1"/>
+                                <circle cx="25" cy="15" r="4" fill="#3498db"/>
+                                <circle cx="35" cy="15" r="4" fill="#3498db"/>
+                                <path d="M20 30 Q30 25 40 30" stroke="#3498db" stroke-width="2" fill="none"/>
+                                <rect x="22" y="35" width="16" height="2" fill="#3498db"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Training & Support</h3>
+                        <p class="service-description">
+                            Comprehensive training programs and ongoing support to ensure your team 
+                            can effectively utilize new systems and maintain peak performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Get in touch to discuss your business needs</p>
+                </div>
+                
+                <div class="contact-content">
+                    <!-- Contact information -->
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Ready to transform your business? Contact us today for a consultation.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" class="icon-svg">
+                                        <path d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5z" stroke="#3498db" stroke-width="2" fill="none"/>
+                                        <path d="m3 7 9 6 9-6" stroke="#3498db" stroke-width="2" fill="none"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Email</strong>
+                                    <p>contact@businesssolutions.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" class="icon-svg">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="#3498db" stroke-width="2" fill="none"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Phone</strong>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg viewBox="0 0 24 24" class="icon-svg">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#3498db" stroke-width="2" fill="none"/>
+                                        <circle cx="12" cy="10" r="3" stroke="#3498db" stroke-width="2" fill="none"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-text">
+                                    <strong>Address</strong>
+                                    <p>123 Business Ave, Suite 100<br>Business City, BC 12345</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact form -->
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                                <span class="error-message" id="phone-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="error-message" id="subject-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span class="btn-text">Send Message</span>
+                                <span class="btn-loading" style="display: none;">Sending...</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company info -->
+                <div class="footer-section">
+                    <h3>Business Solutions Inc</h3>
+                    <p>Transforming businesses through innovative solutions and professional expertise.</p>
+                </div>
+                
+                <!-- Quick links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Social media -->
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" class="social-icon">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" class="social-icon">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" class="social-icon">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Business Solutions Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
